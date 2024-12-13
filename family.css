@@ -27,15 +27,16 @@ body{
 
 #pictures{
     border-radius: 50px;
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #value{
     border-radius: 5px;
     border-color: black;
     padding: 5px;
-    width: 30%;
     display: inline-block;
 }
 
@@ -58,6 +59,7 @@ body{
     border-color: black;
     cursor: pointer;
     display: inline-block;
+
 }
 
 #link{
@@ -75,7 +77,6 @@ body{
     text-align: center;
     position: relative;
     display: flex;
-    flex-direction: row;
     margin-top: 50px;
 }
 
@@ -85,8 +86,6 @@ body{
  display: flex;
  align-items: flex-start;
  flex-direction: column;
- justify-content: end;
- flex-wrap: wrap;
 }
 
 
@@ -94,14 +93,16 @@ body{
     display: grid;
     justify-content: center;
     gap: 5px;
+    align-items: center;
 }
 
 .input{
+    display: flex;
     border-radius: 10px;
     text-align: center;
-    justify-content: center;
-    align-content: center;
     display: inline-block;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #link{
