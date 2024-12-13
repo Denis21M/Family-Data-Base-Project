@@ -26,11 +26,11 @@ body{
 
 #pictures{
     border-radius: 50px;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 #value{
@@ -79,6 +79,7 @@ body{
     display: flex;
     margin-top: 50px;
     margin: 10px;
+    max-width: 300px;
 }
 
 .details{
@@ -88,7 +89,6 @@ body{
  align-items: flex-start;
  flex-direction: column;
  flex-wrap: wrap;
- max-width: 400px;
 }
 
 

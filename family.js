@@ -5,7 +5,7 @@ const members = [
     DOB: "DOB:  14.07.1990",
     POB: "POB:  Uli Nigeria",
     Nationality: "Nationality:  Nigerian",
-    Hobbies: "Hobbies:  Frontend development, Football, Ping Pong",
+    Hobbies: "Hobbies:  Frontend development, Football",
     }, 
     
     {name:"Denisa", 
