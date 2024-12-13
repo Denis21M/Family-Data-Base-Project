@@ -18,7 +18,6 @@ body{
     "input" 
     "clearer" 
     "output"
-    "self" 
     "member";
     height: 900px;
     justify-content: center;
@@ -81,6 +80,8 @@ body{
     position: relative;
     display: flex;
     flex-direction: row;
+    max-height: 400px;
+    min-width: 300px;
 }
 
 .details{
