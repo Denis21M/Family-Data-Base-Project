@@ -35,8 +35,8 @@ body{
     border-radius: 5px;
     border-color: black;
     padding: 5px;
-    width: 98%;
-    display: block;
+    width: 30%;
+    display: inline-block;
 }
 
 #button{
@@ -47,7 +47,7 @@ body{
     border-color: black;
     color: black;
     cursor: pointer;
-    margin: 5px;
+    display: inline-block;
 }
 
 #clear1{
@@ -57,6 +57,7 @@ body{
     border-radius: 5px;
     border-color: black;
     cursor: pointer;
+    display: inline-block;
 }
 
 #link{
@@ -98,9 +99,9 @@ body{
 .input{
     border-radius: 10px;
     text-align: center;
+    justify-content: center;
+    align-content: center;
     display: inline-block;
-    justify-content: start;
-    align-content: start;
 }
 
 #link{
