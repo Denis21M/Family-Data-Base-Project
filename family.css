@@ -18,21 +18,22 @@ body{
     "input" 
     "button" 
     "clearer" 
-    "output" 
+    "output"
+    "self" 
     "member";
     height: 900px;
     justify-content: center;
     margin-top: 90px;
     background-color: skyblue;
-    border-radius: 500px;
-    align-items: center;
+    border-radius: 100px;
+    width: 100%;
+    
 }
 
 #pictures{
     border-radius: 60px;
-    max-height: 700px;
-    height: 500px;
-    max-width: 600px;
+    height: 700px;
+    width: 600px;
     margin-bottom: 20px;
 }
 
@@ -92,7 +93,7 @@ body{
  display: flex;
  align-items: flex-start;
  flex-direction: column;
- margin: 10px;
+ margin: 40px;
  justify-content: end;
 }
 
