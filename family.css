@@ -77,7 +77,8 @@ body{
     position: relative;
     display: flex;
     margin-top: 50px;
-    flex-wrap: wrap;
+    width: 500px;
+    margin: 10px;
 }
 
 .details{
