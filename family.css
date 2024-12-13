@@ -35,7 +35,8 @@ body{
     border-radius: 5px;
     border-color: black;
     padding: 5px;
-    width: 380px;
+    width: 98%;
+    display: block;
 }
 
 #button{
@@ -46,6 +47,7 @@ body{
     border-color: black;
     color: black;
     cursor: pointer;
+    margin: 5px;
 }
 
 #clear1{
@@ -99,12 +101,6 @@ body{
     display: inline-block;
     justify-content: start;
     align-content: start;
-    margin: 5px;
-}
-
-.header{
- display: flex;
- justify-content: center;
 }
 
 #link{
