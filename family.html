@@ -10,12 +10,15 @@
 <body>
    <h1>BACON MMAKOGU Family Database</h1> 
 <div class="container">
-      <div class="item para"><p>kindly use the search button below to check if your name is in the family Database</p></div>
-      <div class="item input"><input id="value" placeholder="Enter name here"></div>
-      <div class="item button"><button onclick="searchFamilyMembers ()" id="button">Search</button> <button id="clear1"><a href="https://denis21m.github.io/Family-Data-Base-Project/family.html" id="clear2">Clear</a></button></div>
-      <div class="item output"> <p id="output"> </p></div>
+      <div class="item input">
+         <p>kindly use the search button below to check if your name is in the family Database</p>
+         <input id="value" placeholder="Enter name here">
+         <button onclick="searchFamilyMembers ()" id="button">Search</button> 
+         <button id="clear1"><a href="https://denis21m.github.io/Family-Data-Base-Project/family.html" id="clear2">Clear</a></button>
+         <p id="output"> </p>
+      </div>
    <div class="item member">
-      <div class="item self"><img id="pictures" onerror="this.src='placeholder.jpg'; this.style.display='block';"></div>
+      <div class="item self"> <img id="pictures" src="invalid-path.jpg" onerror="handleError(this)"></div>
       <div class="item details">
          <p id="BN"> </p>
          <p id="DOB"> </p>

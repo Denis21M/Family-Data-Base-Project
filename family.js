@@ -67,7 +67,7 @@ function searchFamilyMembers(){
             output.textContent = ("Hello" + " " + search + ";" +" " + "Congratulations, your name is in the family database.");
             output.style.color = "green";
             pictures.src = match.image;
-            pictures.style.display = "block";
+            pictures.style.display = `block`;
             birth.innerHTML = match.DOB;
             place.innerHTML = match.POB;
             country.innerHTML = match.Nationality;
@@ -78,8 +78,8 @@ function searchFamilyMembers(){
            else {
                output.textContent = ("Hello" + " " + search + ";" +" " + "Unfortunately, your name can NOT be found in the family database, hint: Bacon or Denisa.");
                output.style.color = "red";
-               pictures.src = " ";
-               pictures.style.display = "";
+               pictures.src = "";
+               pictures.style.display = ` `;
                birth.innerHTML = "";
                place.innerHTML = "";
                country.innerHTML = "";
@@ -87,4 +87,14 @@ function searchFamilyMembers(){
                onBirth.innerHTML = "";
         }
     }
+
+    function handleError(img) {
+        if (img.src.endsWith('placeholder.jpg')) {
+            img.style.display = 'none';
+            return;
+        }
+        img.src = 'placeholder.jpg';
+        img.style.display = 'block'; 
+    }
+    
     

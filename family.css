@@ -16,16 +16,13 @@ body{
     grid-template: 
     "para" 
     "input" 
-    "button" 
     "clearer" 
     "output"
     "self" 
     "member";
     height: 900px;
     justify-content: center;
-    margin-top: 90px;
-    background-color: skyblue;
-    border-radius: 100px;
+    border-radius: 50px;
     width: 100%;
     
 }
@@ -34,12 +31,12 @@ body{
     border-radius: 60px;
     height: 700px;
     width: 600px;
-    margin-bottom: 20px;
 }
 
 #value{
     border-radius: 5px;
     border-color: black;
+    padding: 5px;
 }
 
 #button{
@@ -60,11 +57,11 @@ body{
 .footer{
     display: flex;
     flex-direction: column;
-    align-items: end;
     background-color: skyblue;
     padding: 7px;
     border-radius: 10px;
     margin-top: 70px;
+    align-items: flex-end;
 }
 
 #link{
@@ -78,7 +75,6 @@ body{
 }
 
 .member{
-    margin-top: 2px;
     margin-bottom: 10px;
     border-radius: 10px;
     text-align: center;
@@ -95,6 +91,7 @@ body{
  flex-direction: column;
  margin: 40px;
  justify-content: end;
+ flex-wrap: wrap;
 }
 
 
