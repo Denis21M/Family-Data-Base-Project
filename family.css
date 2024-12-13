@@ -107,3 +107,9 @@ body{
 #link{
     align-items: flex-end;
 }
+
+@media (min-height: 250px) and (max-width: 450px){
+    .contianer{
+        width: 400px;
+    }
+}
