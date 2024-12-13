@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="family.css">
+</head>
+<body>
+   <h1>BACON MMAKOGU Family Database</h1> 
+<div class="container">
+   <div class="item para"><p>kindly use the search button below to check if your name is in the family Database</p></div>
+   <div class="item input"><input id="value" placeholder="Enter name here"></div>
+   <div class="item button"><button onclick="searchFamilyMembers ()" id="button">Search</button> <button id="clear1"><a href="http://127.0.0.1:5500/family.html" id="clear2">Clear</a></button></div>
+   <div class="item output"> <p id="output"> </p></div>
+   <div class="item member">
+    <img id="pictures" onerror="this.src='placeholder.jpg'; this.style.display='block';">
+    <div class="item details">
+      <p id="BN"> </p>
+      <p id="DOB"> </p>
+      <p id="POB"> </p>
+      <p id="Nationality"> </p>
+      <p id="hobbies"> </p>
+      </div>
+    </div>
+
+</div>
+   <div class="footer"> <a href="http://www.linkedin.com/in/mmakogu" id="link">Linkedin</a> <p>All right Reserved</p></div>
+   <script src="family.js"></script>
+</body>
+</html>
