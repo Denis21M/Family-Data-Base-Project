@@ -23,13 +23,14 @@ body{
     justify-content: center;
     border-radius: 50px;
     width: 100%;
+    margin-top: 100px;
     
 }
 
 #pictures{
     border-radius: 60px;
-    height: 700px;
-    width: 600px;
+    height: 450px;
+    width: 350px;
 }
 
 #value{
@@ -44,6 +45,7 @@ body{
     width: 60px;
     border-radius: 5px;
     border-color: black;
+    color: black;
 }
 
 #clear1{
@@ -74,14 +76,13 @@ body{
 }
 
 .member{
-    margin-bottom: 10px;
     border-radius: 10px;
     text-align: center;
     position: relative;
     display: flex;
     flex-direction: row;
-    max-height: 400px;
-    min-width: 300px;
+    max-height: 500px;
+    max-width: 100%;
 }
 
 .details{
@@ -90,7 +91,6 @@ body{
  display: flex;
  align-items: flex-start;
  flex-direction: column;
- margin: 40px;
  justify-content: end;
  flex-wrap: wrap;
 }
