@@ -77,7 +77,6 @@ function searchFamilyMembers(){
            
            else {
                output.textContent = ("Hello" + " " + search + ";" +" " + "Unfortunately, your name can NOT be found in the family database, hint: Bacon or Denisa.");
-               output.style.color = "red";
                pictures.src = "";
                pictures.style.display = ` `;
                birth.innerHTML = "";
@@ -86,15 +85,6 @@ function searchFamilyMembers(){
                hobby.innerHTML = "";
                onBirth.innerHTML = "";
         }
-    }
-
-    function handleError(img) {
-        if (img.src.endsWith('placeholder.jpg')) {
-            img.style.display = 'none';
-            return;
-        }
-        img.src = 'placeholder.jpg';
-        img.style.display = 'block'; 
     }
     
     

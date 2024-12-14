@@ -1,130 +1,124 @@
-h1{
+h1 {
     color: black;
     text-align: center;
-    margin-top: 50px;
     padding: 20px;
     border-radius: 10px;
 }
 
-body{
-    background-color: bisque;
+body {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
-}
-
-.container{
-    display: grid;
-    grid-template:
-    "footer" 
-    "input"  
-    "member";
-    justify-content: center;
-    border-radius: 50px;
-    margin-top: 80px;
-}
-
-#pictures{
-    border-radius: 50px;
-    height: 400px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    max-width: 300px;
+    background: linear-gradient(45deg, teal, white);
+    justify-content: center;
 }
 
-#value{
+.container {
+    display: grid;
+    gap: 20px;
+    width: 90%;
+    max-width: 600px; 
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 700px;
+}
+
+#pictures {
+    border-radius: 50px;
+    max-height: 300px;
+    max-width: 100%;
+    object-fit: cover; 
+    
+}
+
+#value {
     border-radius: 5px;
     border-color: black;
     padding: 5px;
-    display: inline-block;
+    flex: 1;
 }
 
-#button{
+#button,
+#clear1 {
     background-color: green;
     padding: 5px;
-    width: 60px;
+    width: auto;
     border-radius: 5px;
-    border-color: black;
-    color: black;
+    border: none;
+    color: white;
     cursor: pointer;
-    display: inline-block;
+    margin-left: 5px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-#clear1{
+button:hover {
+    transform: scale(1.05);
+}
+
+#clear1 {
     background-color: brown;
-    padding: 5px;
-    width: 60px;
-    border-radius: 5px;
-    border-color: black;
-    cursor: pointer;
-    display: inline-block;
-
 }
 
-#link{
+#clear2 {
     text-decoration: none;
-    color: blue;
+    color: white;
 }
 
-#clear2{
-    text-decoration: none;
-    color: black;
-}
-
-.member{
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
+.member {
     display: flex;
-    margin-top: 50px;
-    margin: 10px;
-    max-width: 300px;
-}
-
-.details{
- color: green;
- font-weight: bold;
- display: flex;
- align-items: flex-start;
- flex-direction: column;
- flex-wrap: wrap;
-}
-
-
-.item{
-    display: grid;
-    justify-content: center;
-    gap: 5px;
+    flex-direction: column;
     align-items: center;
-}
-
-.input{
-    display: flex;
-    border-radius: 10px;
     text-align: center;
-    display: inline-block;
-    flex-direction: row;
-    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 100%;
 }
 
-#link{
-    align-items: flex-end;
+.details {
+    color: green;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    align-items: flex-start;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 767px) {
-    .member{
-        font-size: 16px;
+    .container {
+        width: 100%;
         padding: 10px;
-        max-width: 60%;
-        justify-content: center;
     }
 
-    body{
+    .member {
+        font-size: 14px;
+        padding: 10px;
         width: 100%;
     }
 
-    .container{
-        width: 80%;
-        justify-content: center;
+    #pictures {
+        max-height: 200px;
     }
 }
+
+#linkedin{
+    text-decoration: none;
+    font-style: italic;
+    color: blue;
+}
+
+
