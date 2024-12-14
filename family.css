@@ -22,12 +22,12 @@ body {
     gap: 20px;
     width: 90%;
     max-width: 600px; 
-    margin-top: 20px;
+    margin: 20px;
     border-radius: 10px;
     overflow: hidden; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    height: 700px;
+    height: 60%;
 }
 
 #pictures {
@@ -100,14 +100,14 @@ button:hover {
 
 @media (max-width: 767px) {
     .container {
-        width: 100%;
+        width: 80%;
         padding: 10px;
     }
 
     .member {
         font-size: 14px;
         padding: 10px;
-        width: 100%;
+        width: 90%;
     }
 
     #pictures {
