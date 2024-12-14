@@ -111,3 +111,15 @@ body{
 #link{
     align-items: flex-end;
 }
+
+@media (max-width: 767px) {
+    .member{
+        font-size: 16px;
+        padding: 10px;
+        max-width: 60%;
+    }
+
+    body{
+        width: 80%;
+    }
+}
