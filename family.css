@@ -100,6 +100,7 @@ button:hover {
     .container {
         width: 80%;
         padding: 10px;
+        height: 80%;
     }
 
     .member {
