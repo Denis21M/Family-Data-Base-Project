@@ -115,12 +115,12 @@ button:hover {
     }
 
     #pictures {
-        max-height: 100px;
+        max-height: 200px;
         max-width: auto;
     }
 
     .details{
-        max-height: 10vh;
+        max-height: 40%;
     }
 }
 
