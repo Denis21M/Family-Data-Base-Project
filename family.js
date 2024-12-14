@@ -32,7 +32,7 @@ const members = [
     DOB: "DOB:  18.02.2021",
     POB: "POB:  Ostrava Czech",
     Nationality: "Nationality:  Czech-Nigerian",
-    Hobbies: "Hobbies:  Lego figures, Football, Eating Chocolates",
+    Hobbies: "Hobbies:  Lego, Football, Chocolates",
     }, 
                 
     {name:"Christian", 
