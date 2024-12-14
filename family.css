@@ -96,26 +96,29 @@ button:hover {
     justify-content: center;
 }
 
-@media (max-width: 767px) {
+@media (min-height: 250px) and (max-width: 1500px) {
     .container {
         width: 80%;
         padding: 10px;
-        height: 80%;
+        height: auto;
+        max-height: 90vh;
     }
 
     .member {
         font-size: 14px;
         padding: 10px;
         width: 90%;
-        max-height: 80%;
+        height: auto;
+        max-height: 90vh;
     }
 
     #pictures {
-        max-height: 170px;
+        max-height: 200px;
     }
 
     .details{
-        max-height: 30%;
+        max-height: 90vh;
+        height: auto;
     }
 }
 
