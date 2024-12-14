@@ -96,11 +96,11 @@ button:hover {
     justify-content: center;
 }
 
-@media (min-height: 250px) and (max-width: 1000px) {
+@media (max-width: 767px)  {
     .container {
         width: 80%;
         padding: 10px;
-        height: auto;
+        height: 480px;
         max-height: 80vh;
     }
 
@@ -109,7 +109,7 @@ button:hover {
         padding: 10px;
         width: 90%;
         height: auto;
-        max-height: 70vh;
+        max-width: 60vh;
     }
 
     #pictures {
@@ -118,7 +118,6 @@ button:hover {
 
     .details{
         max-height: 10vh;
-        height: auto;
     }
 }
 
@@ -127,5 +126,8 @@ button:hover {
     font-style: italic;
     color: blue;
 }
+
+
+
 
 
