@@ -127,6 +127,7 @@ button:hover {
     .details{
         max-height: 50vh;
         margin-bottom: 15px;
+        padding-bottom: 15px;
     }
 }
 
