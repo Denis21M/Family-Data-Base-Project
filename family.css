@@ -116,7 +116,7 @@ button:hover {
         padding: 10px;
         width: 90%;
         height: auto;
-        max-width: 60vh;
+        max-height: 80vh;
     }
 
     #pictures {
@@ -125,7 +125,8 @@ button:hover {
     }
 
     .details{
-        max-height: 40%;
+        max-height: 50vh;
+        margin-bottom: 15px;
     }
 }
 
