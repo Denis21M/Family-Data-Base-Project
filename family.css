@@ -52,8 +52,28 @@ img:hover {
     border: none;
 }
 
+#memory{
+    font-style: italic;
+    color: green;
+}
+
+#personal{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#name, #BN, #DOB, #POB, #Nationality, #hobbies, #image{
+    width: 150px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 #button,
-#clear1 {
+#clear1, #add1, #home1, #submit {
     background-color: green;
     padding: 5px;
     width: auto;
@@ -65,6 +85,18 @@ img:hover {
     transition: background-color 0.3s, transform 0.3s;
 }
 
+#home1, #submit{
+    background-color: green;
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 50%;
+}
+
 button:hover {
     transform: scale(1.05);
 }
@@ -73,7 +105,7 @@ button:hover {
     background-color: brown;
 }
 
-#clear2 {
+#clear2, #add2, #home2 {
     text-decoration: none;
     color: white;
 }
