@@ -27,13 +27,13 @@ body {
     overflow: hidden; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     padding: 30px;
-    height: 60%;
+    height: 70%;
     justify-content: center;
 }
 
 #pictures {
     border-radius: 20px;
-    max-height: 450px;
+    max-height: 500px;
     max-width: 100%;
     object-fit: cover;
     padding: 10px;
@@ -65,8 +65,6 @@ img:hover {
 }
 
 #name, #BN, #DOB, #POB, #Nationality, #hobbies, #image{
-    width: 150px;
-    text-align: center;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -113,18 +111,14 @@ button:hover {
 .member {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     border-radius: 10px;
     max-width: 100%;
 }
 
 .details {
     color: green;
-    font-weight: bold;
     display: flex;
     flex-direction: column; 
-    align-items: flex-start;
     padding: 10px;
 }
 
@@ -152,7 +146,7 @@ button:hover {
     }
 
     #pictures {
-        max-height: 200px;
+        max-height: 350px;
         max-width: auto;
     }
 

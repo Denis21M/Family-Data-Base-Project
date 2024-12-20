@@ -14,7 +14,7 @@ let members = JSON.parse(localStorage.getItem('members')) || [
     POB: "POB:  Ostrava Czech Rep.",
     Nationality: "Nationality:  Czech",
     Hobbies: "Hobbies:  Cooking, Mobile Games, Baking",
-    image:"./Deni.jpg",
+    image:"./IMG-20200216-WA0005.jpg",
     },
                 
     {name:"Sebastian", 
