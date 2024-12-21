@@ -1,6 +1,6 @@
-h1, .index {
+h1 {
     color: black;
-    text-align: center;
+    text-align: start;
     padding: 20px;
     border-radius: 10px;
 }
@@ -54,7 +54,7 @@ img:hover {
 #memory{
     font-style: italic;
     color: green;
-    font-size: s;
+    font-size: small;
 }
 
 #personal{
