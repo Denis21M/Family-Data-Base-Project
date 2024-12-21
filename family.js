@@ -3,6 +3,8 @@ const members = [
     BN: "BN:  Bacon Chinazom Mmakogu",
     DOB: "DOB:  14.07.1990",
     POB: "POB:  Uli Nigeria",
+    Sex: "Sex:  Male",
+    Connection: "Connection/Position:  11th/Last",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Hobbies/Likes:  Frontend development, Football",
     image:"Bacon.jpg",
@@ -12,6 +14,8 @@ const members = [
     BN: "BN:  Denisa Parmova",
     DOB: "DOB:  13.06.1992",
     POB: "POB:  Ostrava Czech Rep.",
+    Sex: "Sex:  Female",
+    Connection: "Connection/Position:  Bacon(Partner)",
     Nationality: "Nationality:  Czech",
     Hobbies: "Hobbies/Likes:  Cooking, Mobile Games, Baking",
     image:"./Deni.jpg",
@@ -21,6 +25,8 @@ const members = [
     BN: "BN:  Sebastian Rostislav Parma",
     DOB: "DOB:  02.07.2015",
     POB: "POB:  Ostrava Czech Rep.",
+    Sex: "Sex:  Male",
+    Connection: "Connection/Position:  Bacon(Step-son)",
     Nationality: "Nationality:  Czech",
     Hobbies: "Hobbies/Likes:  Basket Ball, Video Games, Building things",
     image:"./Sebastian.jpg",
@@ -30,6 +36,8 @@ const members = [
     BN: "BN:  Denis Chinazom Mmakogu",
     DOB: "DOB:  18.02.2021",
     POB: "POB:  Ostrava Czech",
+    Sex: "Sex:  Male",
+    Connection: "Connection/Position:  Bacon(Ist son)",
     Nationality: "Nationality:  Czech-Nigerian",
     Hobbies: "Hobbies/Likes:  Lego, Football, Chocolates",
     image:"./Nazom.jpg",
@@ -39,6 +47,8 @@ const members = [
     BN: "BN:  Christian Isioma Mmakogu",
     DOB: "DOB:  28.10.2024",
     POB: "POB:  Ostrava Czech",
+    Sex: "Sex:  Male",
+    Connection: "Connection/Position:  Bacon(2nd son)",
     Nationality: "Nationality:  Czech-Nigerian",
     Hobbies: "Hobbies/Likes:  Sucking, Crying, Sleeping",
     image:"./Isioma.jpg",
@@ -48,16 +58,20 @@ const members = [
     BN: "BN:  Adolphus Uche Mmakogu",
     DOB: "DOB:  20.01.1970",
     POB: "POB:  Uli Nigeria",
+    Sex: "Sex:  Male",
+    Connection: "Connection/Position:  1st",
     Nationality: "Nationality:  Polish-Nigerian",
     Hobbies: "Hobbies/Likes:  Football, Philosophy, Ping pong",
     image:"./Okpara.jpg",
     },
 
     
-    {name:"Euginia", 
+    {name:"Eugenia", 
     BN: "BN:  Late Mrs Ezinne E.A. Mmakogu",
     DOB: "DOB:  10.03.1951",
     POB: "POB:  Eziani, Nigeria",
+    Sex: "Sex:  Female",
+    Connection: "Connection/Position:  Mother",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Hobbies/Likes:  Farming, Bean-cake baking, Sharing Love",
     image:"./Ezinne.jpg",
@@ -67,6 +81,8 @@ const members = [
     BN: "BN:  Late Mr Innocent A. Mmakogu",
     DOB: "DOB:  01.01.1935",
     POB: "POB:  Uli, Nigeria",
+    Sex: "Sex:  Male",
+    Connection: "Connection/Position:  Father",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Hobbies/Likes:  Business, News Papers, Provision",
     image:"./Amuzienwa.jpg",
@@ -95,6 +111,9 @@ function searchFamilyMembers(){
     const country = document.getElementById("Nationality");
     const hobby = document.getElementById("hobbies");
     const onBirth = document.getElementById("BN");
+    const sex = document.getElementById("Sex");
+    const connection = document.getElementById("Connection");
+
 
     if (!search){
         alert("Please enter a first name, hint: Bacon or Denisa");
@@ -113,6 +132,8 @@ function searchFamilyMembers(){
             country.innerHTML = match.Nationality;
             hobby.innerHTML = match.Hobbies;
             onBirth.innerHTML = match.BN;
+            sex.innerHTML = match.Sex;
+            connection.innerHTML = match.Connection;
            } 
            
            else {
@@ -124,6 +145,8 @@ function searchFamilyMembers(){
                country.innerHTML = "";
                hobby.innerHTML = "";
                onBirth.innerHTML = "";
+               sex.innerHTML = "";
+               connection.innerHTML = "";
         }
     }
 
@@ -135,6 +158,8 @@ function searchFamilyMembers(){
         const BN = `BN:  ${document.getElementById("BN").value.trim()}`;
         const DOB = `DOB:  ${document.getElementById("DOB").value.trim()}`;
         const POB = `POB:  ${document.getElementById("POB").value.trim()}`;
+        const Sex = `Sex:  ${document.getElementById("Sex").value.trim()}`;
+        const Connection = `Connection:  ${document.getElementById("Connection").value.trim()}`;
         const Nationality = `Nationality:  ${document.getElementById("Nationality").value.trim()}`;
         const Hobbies = `Hobbies:  ${document.getElementById("hobbies").value.trim()}`;
         const image = document.getElementById("image").value.trim();
@@ -145,6 +170,8 @@ function searchFamilyMembers(){
             BN,
             DOB,
             POB,
+            Sex,
+            Connection,
             Nationality,
             Hobbies,
             image
@@ -160,7 +187,7 @@ function searchFamilyMembers(){
     
         document.getElementById("personal").reset();
 
-        addNewMember(name, BN, DOB, POB, Nationality, Hobbies, image);
+        addNewMember(name, BN, DOB, POB,Sex, Connection, Nationality, Hobbies, image);
     });
     
     
