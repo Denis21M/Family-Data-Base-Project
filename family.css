@@ -64,7 +64,7 @@ img:hover {
     gap: 5px;
 }
 
-#name, #BN, #DOB, #POB, #Nationality, #hobbies, #image{
+#name, #BN, #DOB, #POB, #Nationality, #hobbies, #image, #Sex, #Connection{
     border: none;
     border-radius: 5px;
     padding: 5px;
