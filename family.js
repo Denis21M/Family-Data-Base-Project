@@ -106,7 +106,7 @@ const members = [
     Sex: "Sex:  Male",
     Connection: "Connection/Position:  7th, 5th Son",
     Nationality: "Nationality:  Nigerian",
-    Hobbies: "Likes:  Beer, , Eating",
+    Hobbies: "Likes:  Beer, Luxury Brands, Eating",
     image:"./Geo.jpg",
     },
 
