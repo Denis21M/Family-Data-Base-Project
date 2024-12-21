@@ -145,6 +145,10 @@ button:hover {
         max-height: 80vh;
     }
 
+    img:hover {
+        transform: translateY(0px);
+    }
+
     #pictures {
         max-height: 350px;
         max-width: auto;
