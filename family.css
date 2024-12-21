@@ -21,7 +21,6 @@ body {
 .container {
     display: grid;
     width: 90%;
-    max-width: 600px; 
     margin: 20px;
     border-radius: 10px;
     overflow: hidden; 
@@ -55,6 +54,7 @@ img:hover {
 #memory{
     font-style: italic;
     color: green;
+    font-size: s;
 }
 
 #personal{
@@ -152,8 +152,8 @@ button:hover {
 
     .details{
         max-height: 50vh;
-        margin-bottom: 15px;
-        padding-bottom: 15px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 }
 
