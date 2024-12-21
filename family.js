@@ -1,11 +1,11 @@
-let members = JSON.parse(localStorage.getItem('members')) || [
+const members = [
     {name:"Bacon", 
     BN: "BN:  Bacon Chinazom Mmakogu",
     DOB: "DOB:  14.07.1990",
     POB: "POB:  Uli Nigeria",
     Nationality: "Nationality:  Nigerian",
-    Hobbies: "Hobbies:  Frontend development, Football",
-    image:"profile.jpg",
+    Hobbies: "Hobbies/Likes:  Frontend development, Football",
+    image:"Bacon.jpg",
     }, 
     
     {name:"Denisa", 
@@ -13,7 +13,7 @@ let members = JSON.parse(localStorage.getItem('members')) || [
     DOB: "DOB:  13.06.1992",
     POB: "POB:  Ostrava Czech Rep.",
     Nationality: "Nationality:  Czech",
-    Hobbies: "Hobbies:  Cooking, Mobile Games, Baking",
+    Hobbies: "Hobbies/Likes:  Cooking, Mobile Games, Baking",
     image:"./Deni.jpg",
     },
                 
@@ -22,8 +22,8 @@ let members = JSON.parse(localStorage.getItem('members')) || [
     DOB: "DOB:  02.07.2015",
     POB: "POB:  Ostrava Czech Rep.",
     Nationality: "Nationality:  Czech",
-    Hobbies: "Hobbies:  Basket Ball, Video Games, Building things",
-    image:"./sebinek.jpg",
+    Hobbies: "Hobbies/Likes:  Basket Ball, Video Games, Building things",
+    image:"./sebastian.jpg",
     }, 
                 
     {name:"Denis", 
@@ -31,8 +31,8 @@ let members = JSON.parse(localStorage.getItem('members')) || [
     DOB: "DOB:  18.02.2021",
     POB: "POB:  Ostrava Czech",
     Nationality: "Nationality:  Czech-Nigerian",
-    Hobbies: "Hobbies:  Lego, Football, Chocolates",
-    image:"./Nazom%20jr.jpg",
+    Hobbies: "Hobbies/Likes:  Lego, Football, Chocolates",
+    image:"./Nazom.jpg",
     }, 
                 
     {name:"Christian", 
@@ -40,9 +40,37 @@ let members = JSON.parse(localStorage.getItem('members')) || [
     DOB: "DOB:  28.10.2024",
     POB: "POB:  Ostrava Czech",
     Nationality: "Nationality:  Czech-Nigerian",
-    Hobbies: "Hobbies:  Sucking, Crying, Sleeping",
-    image:"./Chris.jpg",
-    }
+    Hobbies: "Hobbies/Likes:  Sucking, Crying, Sleeping",
+    image:"./Isioma.jpg",
+    },
+
+    {name:"Adolphus", 
+    BN: "BN:  Adolphus Uche Mmakogu",
+    DOB: "DOB:  20.01.1970",
+    POB: "POB:  Uli Nigeria",
+    Nationality: "Nationality:  Polish-Nigerian",
+    Hobbies: "Hobbies/Likes:  Football, Philosophy, Ping pong",
+    image:"./Okpara.jpg",
+    },
+
+    
+    {name:"Euginia", 
+    BN: "BN:  Late Mrs Ezinne E.A. Mmakogu",
+    DOB: "DOB:  10.03.1951",
+    POB: "POB:  Eziani, Nigeria",
+    Nationality: "Nationality:  Nigerian",
+    Hobbies: "Hobbies/Likes:  Farming, Bean-cake baking, Sharing Love",
+    image:"./Ezinne.jpg",
+        },
+
+    {name:"Innocent", 
+    BN: "BN:  Late Mr Innocent A. Mmakogu",
+    DOB: "DOB:  01.01.1935",
+    POB: "POB:  Uli, Nigeria",
+    Nationality: "Nationality:  Nigerian",
+    Hobbies: "Hobbies/Likes:  Business, News Papers, Provision",
+    image:"./Amuzienwa.jpg",
+    },
     ];
 
     function saveMembersToLocalStorage() {
