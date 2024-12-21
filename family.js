@@ -23,7 +23,7 @@ const members = [
     POB: "POB:  Ostrava Czech Rep.",
     Nationality: "Nationality:  Czech",
     Hobbies: "Hobbies/Likes:  Basket Ball, Video Games, Building things",
-    image:"./sebastian.jpg",
+    image:"./Sebastian.jpg",
     }, 
                 
     {name:"Denis", 
