@@ -7,7 +7,7 @@ const members = [
     Connection: "Connection/Position:  11th/ 6th Son",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Likes:  Frontend development, Football, Ping Pong",
-    image:"Bacon.jpg",
+    image:"./media/Bacon.jpg",
     }, 
     
     {name:"Denisa", 
@@ -18,7 +18,7 @@ const members = [
     Connection: "Connection/Position:  Bacon(Partner)",
     Nationality: "Nationality:  Czech",
     Hobbies: "Likes:  Cooking, Mobile Games, Baking",
-    image:"./Deni.jpg",
+    image:"./media/Deni.jpg",
     },
                 
     {name:"Sebastian", 
@@ -29,7 +29,7 @@ const members = [
     Connection: "Connection/Position:  Bacon(Step-son)",
     Nationality: "Nationality:  Czech",
     Hobbies: "Likes:  Basket Ball, Video Games, Building things",
-    image:"./Sebastian.jpg",
+    image:"./media/Sebastian.jpg",
     }, 
                 
     {name:"Denis", 
@@ -40,7 +40,7 @@ const members = [
     Connection: "Connection/Position:  Bacon(Ist son)",
     Nationality: "Nationality:  Czech-Nigerian",
     Hobbies: "Likes:  Lego, Football, Chocolates",
-    image:"./Nazom.jpg",
+    image:"./media/Nazom.jpg",
     }, 
                 
     {name:"Christian", 
@@ -51,7 +51,7 @@ const members = [
     Connection: "Connection/Position:  Bacon(2nd son)",
     Nationality: "Nationality:  Czech-Nigerian",
     Hobbies: "Likes:  Sucking, Crying, Sleeping",
-    image:"./Isioma.jpg",
+    image:"./media/Isioma.jpg",
     },
 
     {name:"Adolphus", 
@@ -62,7 +62,7 @@ const members = [
     Connection: "Connection/Position:  1st, 1st Son",
     Nationality: "Nationality:  Polish-Nigerian",
     Hobbies: "Likes:  Football, Philosophy, Ping pong",
-    image:"./Okpara.jpg",
+    image:"./media/Okpara.jpg",
     },
 
     
@@ -74,7 +74,7 @@ const members = [
     Connection: "Connection/Position:  Mother",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Likes:  Farming, Bean-cake baking, Sharing Love",
-    image:"./Ezinne.jpg",
+    image:"./media/Ezinne.jpg",
         },
 
     {name:"Innocent", 
@@ -85,7 +85,7 @@ const members = [
     Connection: "Connection/Position:  Father",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Likes:  Business, News Papers, Provision",
-    image:"./Amuzienwa.jpg",
+    image:"./media/Amuzienwa.jpg",
     },
 
     {name:"Pamela", 
@@ -96,7 +96,7 @@ const members = [
     Connection: "Connection/Position:  5th, 2nd Daughter",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Likes:  Travelling, Movies, Games",
-    image:"./Pamela.jpg",
+    image:"./media/Pamela.jpg",
     },
 
     {name:"Geofrey", 
@@ -107,7 +107,7 @@ const members = [
     Connection: "Connection/Position:  7th, 5th Son",
     Nationality: "Nationality:  Nigerian",
     Hobbies: "Likes:  Beer, Luxury Brands, Eating",
-    image:"./Geo.jpg",
+    image:"./media/Geo.jpg",
     },
 
     {name:"Miracle", 
@@ -118,7 +118,7 @@ const members = [
     Connection: "Connection/Position:  Pamela(1st Son)",
     Nationality: "Nationality:  Canadian-Nigerian",
     Hobbies: "Likes:  Travelling, Movies, Games",
-    image:"./Chidera.jpg",
+    image:"./media/Chidera.jpg",
     },
 
     {name:"Simona", 
@@ -129,7 +129,7 @@ const members = [
     Connection: "Connection/Position:  Geofrey(Wife)",
     Nationality: "Nationality:  Czech",
     Hobbies: "Likes:  Flowers, Cooking, Cleaning",
-    image:"./Simona.jpg",
+    image:"./media/Simona.jpg",
     },
 
     ];

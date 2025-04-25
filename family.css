@@ -23,11 +23,11 @@ body {
     width: 90%;
     margin: 20px;
     border-radius: 10px;
-    overflow: hidden; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     padding: 30px;
     height: 75%;
     justify-content: center;
+    overflow: auto;
 }
 
 #pictures {
@@ -119,7 +119,6 @@ button:hover {
     color: green;
     display: flex;
     flex-direction: column; 
-    padding: 10px;
 }
 
 .input {
